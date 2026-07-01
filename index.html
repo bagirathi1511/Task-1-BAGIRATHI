@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumen — a modern, minimal, professional landing page built with semantic HTML5 and CSS3." />
+  <title>Lumen — Modern Digital Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo" aria-label="Lumen home">
+        <span class="logo-mark" aria-hidden="true">L</span>
+        <span class="logo-text">Lumen</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <span class="eyebrow">Welcome to Lumen</span>
+        <h1>Crafting modern digital<br />experiences that shine.</h1>
+        <p class="lead">
+          We design and build beautiful, fast, and accessible websites that help
+          modern teams grow with confidence.
+        </p>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img
+            src="images/about.jpg"
+            alt="Team collaborating around a laptop in a bright modern office"
+          />
+        </div>
+        <div class="about-content">
+          <span class="eyebrow">About Us</span>
+          <h2>A studio built on clarity, craft, and care.</h2>
+          <p>
+            We're a small team of designers and engineers who believe great
+            digital products come from focus, simplicity, and a relentless
+            attention to detail.
+          </p>
+          <ul class="feature-list">
+            <li>Human-centered design process</li>
+            <li>Performance-first engineering</li>
+            <li>Accessible by default</li>
+            <li>Transparent communication</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Work With Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Services</span>
+          <h2>What we do best</h2>
+          <p>From strategy to launch, we deliver end-to-end digital solutions.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">✦</div>
+            <h3>Web Design</h3>
+            <p>Beautiful, brand-aligned interfaces designed to convert and delight.</p>
+            <a href="#contact" class="link-arrow">Learn More →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">◐</div>
+            <h3>Development</h3>
+            <p>Fast, reliable, modern websites built with clean, maintainable code.</p>
+            <a href="#contact" class="link-arrow">Learn More →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">◇</div>
+            <h3>Branding</h3>
+            <p>Distinctive identities that help your business stand out and stay memorable.</p>
+            <a href="#contact" class="link-arrow">Learn More →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">△</div>
+            <h3>SEO &amp; Growth</h3>
+            <p>Data-driven strategies that bring the right visitors to your site.</p>
+            <a href="#contact" class="link-arrow">Learn More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Gallery</span>
+          <h2>Selected work</h2>
+          <p>A snapshot of recent projects we're proud of.</p>
+        </div>
+        <div class="gallery-grid">
+          <img src="images/gallery-1.jpg" alt="Minimal app dashboard interface on a laptop screen" />
+          <img src="images/gallery-2.jpg" alt="Modern mobile app shown on a phone" />
+          <img src="images/gallery-3.jpg" alt="Analytics charts on a desktop monitor" />
+          <img src="images/gallery-4.jpg" alt="Designer's desk with notebook and laptop" />
+          <img src="images/gallery-5.jpg" alt="Code editor open on a screen" />
+          <img src="images/gallery-6.jpg" alt="Team meeting around a whiteboard" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section features">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why Lumen</span>
+          <h2>Built for modern teams</h2>
+          <p>Everything you need to launch and grow online.</p>
+        </div>
+        <div class="cards features-grid">
+          <article class="card feature-card">
+            <div class="card-icon" aria-hidden="true">⚡</div>
+            <h3>Fast</h3>
+            <p>Optimized performance from first paint to final pixel.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="card-icon" aria-hidden="true">▦</div>
+            <h3>Responsive</h3>
+            <p>Looks great on every device, from phone to desktop.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="card-icon" aria-hidden="true">✶</div>
+            <h3>Modern</h3>
+            <p>Clean, contemporary design with timeless fundamentals.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="card-icon" aria-hidden="true">⛨</div>
+            <h3>Secure</h3>
+            <p>Built with security best practices from day one.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's build something great together.</h2>
+          <p>Have a project in mind? Send us a note — we typically reply within one business day.</p>
+        </div>
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="How can we help?" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark" aria-hidden="true">L</span>
+          <span class="logo-text">Lumen</span>
+        </a>
+        <p>Modern digital studio crafting websites that shine.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li>hello@lumen.studio</li>
+          <li>+1 (555) 123-4567</li>
+          <li>San Francisco, CA</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow</h3>
+        <ul class="social">
+          <li><a href="#" aria-label="Twitter">Tw</a></li>
+          <li><a href="#" aria-label="Instagram">Ig</a></li>
+          <li><a href="#" aria-label="LinkedIn">In</a></li>
+          <li><a href="#" aria-label="Dribbble">Dr</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Lumen Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
